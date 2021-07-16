@@ -28,6 +28,10 @@
 			{{ end }}
 			{{ end }}
 		</div>
+
 	</article>
 </main>
+{{ if (and .Site.Params.remark42SiteID .Params.comments) }}
+<div id="remark42"></div>
+{{ end }}
 {{ end }}
